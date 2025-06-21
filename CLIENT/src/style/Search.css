@@ -1,0 +1,94 @@
+.search-input-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+}
+
+.search-input {
+  width: 20vw;
+  padding: 1.6vh 8vh 1.55vh 1.5vh;
+  border: 2px solid #ddd;
+  border-radius: 25vh;
+  font-size: 0.8rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.search-input:hover {
+  border-color: #adb5bd;
+}
+
+.search-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+}
+
+.clear-button {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #666;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 50%;
+  transition: background-color 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+}
+
+.clear-button:hover {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.clear-button:focus {
+  outline: 2px solid #007bff;
+  outline-offset: 2px;
+}
+
+.mic-button {
+  position: absolute;
+  right: 0.5vw; 
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 8px;
+  border: none;
+  border-radius: 50%;
+  color: black;
+  cursor: pointer;
+  width: 28px;
+  height: 28px;
+  font-size: 18px;
+}
+
+.mic-button:hover {
+  background-color: #0056b3;
+}
+
+.mic-button:focus {
+  outline: 2px solid #007bff;
+  outline-offset: 2px;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .search-input-wrapper {
+    max-width: 100%;
+  }
+
+  .search-input {
+    font-size: 16px;
+  }
+}

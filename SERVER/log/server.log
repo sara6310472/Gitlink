@@ -1,0 +1,60 @@
+[2025-06-21T18:43:47.419Z] [INFO] Fetched messages with conditions=[{"field":"email","value":"sara3280624@gmail.com"}]
+[2025-06-21T18:43:47.427Z] [INFO] Fetched messages with conditions=[{"field":"email","value":"sara3280624@gmail.com"}]
+[2025-06-21T18:43:47.517Z] [INFO] Fetched messages with conditions=[{"field":"email","value":"sara3280624@gmail.com"}]
+[2025-06-21T18:43:57.428Z] [INFO] Fetched jobs with conditions=[]
+[2025-06-21T18:43:57.435Z] [INFO] Fetched jobs with conditions=[]
+[2025-06-21T18:43:59.993Z] [INFO] Fetched recruiters data
+[2025-06-21T18:44:00.000Z] [INFO] Fetched recruiters data
+[2025-06-21T18:44:04.492Z] [INFO] Fetched projects with conditions=[]
+[2025-06-21T18:44:04.499Z] [INFO] Fetched projects with conditions=[]
+[2025-06-21T18:44:09.087Z] [INFO] Fetched data from table = developers 
+[2025-06-21T18:44:09.101Z] [INFO] Fetched data from table = developers 
+[2025-06-21T18:44:15.621Z] [INFO] Fetched user data for username=sara
+[2025-06-21T18:44:15.629Z] [INFO] Fetched user data for username=sara
+[2025-06-21T18:44:15.649Z] [INFO] Fetched projects with conditions=[{"field":"username","value":"sara"}]
+[2025-06-21T18:44:15.655Z] [INFO] Fetched projects with conditions=[{"field":"username","value":"sara"}]
+[2025-06-21T18:44:20.775Z] [INFO] Fetched projects with conditions=[]
+[2025-06-21T18:44:20.780Z] [INFO] Fetched projects with conditions=[]
+[2025-06-21T18:44:21.924Z] [INFO] Fetched recruiters data
+[2025-06-21T18:44:21.932Z] [INFO] Fetched recruiters data
+[2025-06-21T18:44:22.676Z] [INFO] Fetched jobs with conditions=[]
+[2025-06-21T18:44:22.680Z] [INFO] Fetched jobs with conditions=[]
+[2025-06-21T18:44:26.201Z] [INFO] Fetched recruiters data
+[2025-06-21T18:44:26.206Z] [INFO] Fetched recruiters data
+[2025-06-21T18:44:28.154Z] [INFO] Fetched projects with conditions=[]
+[2025-06-21T18:44:28.160Z] [INFO] Fetched projects with conditions=[]
+[2025-06-21T18:44:29.402Z] [INFO] Fetched data from table = developers 
+[2025-06-21T18:44:29.409Z] [INFO] Fetched data from table = developers 
+[2025-06-21T18:46:33.290Z] [INFO] Fetched projects with conditions=[]
+[2025-06-21T18:46:33.294Z] [INFO] Fetched projects with conditions=[]
+[2025-06-21T18:46:34.687Z] [INFO] Fetched recruiters data
+[2025-06-21T18:46:34.692Z] [INFO] Fetched recruiters data
+[2025-06-21T18:46:55.674Z] [INFO] Fetched projects with conditions=[]
+[2025-06-21T18:46:55.679Z] [INFO] Fetched projects with conditions=[]
+[2025-06-21T18:46:56.574Z] [INFO] Fetched data from table = developers 
+[2025-06-21T18:46:56.579Z] [INFO] Fetched data from table = developers 
+[2025-06-21T18:46:59.288Z] [INFO] Fetched user data for username=sara
+[2025-06-21T18:46:59.294Z] [INFO] Fetched user data for username=sara
+[2025-06-21T18:46:59.306Z] [INFO] Fetched projects with conditions=[{"field":"username","value":"sara"}]
+[2025-06-21T18:46:59.312Z] [INFO] Fetched projects with conditions=[{"field":"username","value":"sara"}]
+[2025-06-21T18:47:20.028Z] [INFO] Fetched data from table = developers 
+[2025-06-21T18:47:20.033Z] [INFO] Fetched data from table = developers 
+[2025-06-21T18:47:22.824Z] [INFO] Fetched projects with conditions=[]
+[2025-06-21T18:47:22.829Z] [INFO] Fetched projects with conditions=[]
+[2025-06-21T18:47:24.807Z] [INFO] Fetched recruiters data
+[2025-06-21T18:47:24.813Z] [INFO] Fetched recruiters data
+[2025-06-21T18:47:28.771Z] [INFO] Fetched projects with conditions=[]
+[2025-06-21T18:47:28.775Z] [INFO] Fetched projects with conditions=[]
+[2025-06-21T18:47:32.975Z] [WARN] Refresh token missing in request
+[2025-06-21T18:47:43.134Z] [WARN] Refresh token missing in request
+[2025-06-21T18:47:43.140Z] [INFO] User logged out
+[2025-06-21T18:47:43.145Z] [INFO] User logged out
+[2025-06-21T18:47:45.016Z] [INFO] Fetched projects with conditions=[]
+[2025-06-21T18:47:49.858Z] [INFO] Fetched data from table = developers 
+[2025-06-21T18:47:49.870Z] [INFO] Fetched data from table = developers 
+[2025-06-21T18:48:24.603Z] [INFO] Fetched recruiters data
+[2025-06-21T18:48:24.608Z] [INFO] Fetched recruiters data
+[2025-06-21T18:48:26.621Z] [INFO] Fetched projects with conditions=[]
+[2025-06-21T18:48:26.626Z] [INFO] Fetched projects with conditions=[]
+[2025-06-21T18:50:25.792Z] [INFO] Fetched jobs with conditions=[]
+[2025-06-21T18:50:25.798Z] [INFO] Fetched jobs with conditions=[]

@@ -1,0 +1,112 @@
+.admin-page {
+  padding: 2rem;
+  background: linear-gradient(to bottom right, #f0f4f8, #ffffff);
+}
+
+.admin-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #2c3e50;
+}
+
+.admin-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.admin-page h1 {
+  font-size: 3rem;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: slideInLeft 1s ease-out 0.3s both;
+}
+
+.admin-table-wrapper {
+  overflow-x: auto;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  background-color: white;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-table th,
+.admin-table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.admin-table th {
+  background-color: #dfefff;
+  color: #1f3a93;
+  font-weight: 600;
+}
+
+.admin-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.admin-link {
+  color: #3498db;
+  text-decoration: underline;
+}
+
+.text-active {
+  color: #2ecc71;
+  font-weight: bold;
+}
+
+.text-blocked {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.admin-btn {
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: white;
+  margin-right: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-block {
+  background-color: #e74c3c;
+}
+
+.btn-block:hover {
+  background-color: #c0392b;
+}
+
+.btn-unblock {
+  background-color: #27ae60;
+}
+
+.btn-unblock:hover {
+  background-color: #1e8449;
+}
+
+.btn-view {
+  background-color: #3498db;
+}
+
+.btn-view:hover {
+  background-color: #2980b9;
+}

@@ -1,0 +1,244 @@
+/* DeveloperProfile.css - Specific styles for DeveloperProfile component */
+
+/* Experience section */
+.profile-description {
+  color: #6b7280;
+  line-height: 1.6;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* GitHub section */
+.profile-description a {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.profile-description a:hover {
+  color: #5a67d8;
+  text-decoration: underline;
+}
+
+/* CV section */
+.cv-section {
+  margin: 2rem 0;
+}
+
+.cv-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.btn {
+  padding: 0.875rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-primary {
+  background: #667eea;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #5a67d8;
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  background: #6b7280;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background: #4b5563;
+  transform: translateY(-1px);
+}
+
+/* Projects list */
+.profile-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.profile-section li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+  background: #f8fafc;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  transition: all 0.2s ease;
+}
+
+.profile-section li:hover {
+  background: #f1f5f9;
+  border-color: #667eea;
+}
+
+.profile-section li button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.profile-section li button:first-of-type {
+  background: #667eea;
+  color: white;
+}
+
+.profile-section li button:first-of-type:hover {
+  background: #5a67d8;
+  transform: translateY(-1px);
+}
+
+/* Project Management */
+.project-actions {
+  margin-bottom: 2rem;
+}
+
+
+/* Projects to Add Section */
+.projectsToAdd {
+  margin-top: 2rem;
+  padding: 2rem;
+  background: #f8fafc;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+}
+
+.projectsName h3 {
+  color: #374151;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.projectsName ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.projectsName li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+.projectsName li button {
+  background: #10b981;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.projectsName li button:hover:not(:disabled) {
+  background: #059669;
+  transform: translateY(-1px);
+}
+
+.projectsName li button:disabled {
+  background: #d1d5db;
+  cursor: not-allowed;
+}
+
+/* Project Form */
+.project-form {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-input {
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.2s ease;
+  box-sizing: border-box;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #221089;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+.cancel-btn {
+  background: #6b7280;
+  color: white;
+  border: none;
+  padding: 0.875rem 2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.cancel-btn:hover {
+  background: #4b5563;
+  transform: translateY(-1px);
+}
+
+/* Responsive Design for Developer Profile */
+@media (max-width: 768px) {
+  .cv-buttons {
+    flex-direction: column;
+  }
+
+  .projectsName ul {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-section li {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+  .form-buttons {
+    flex-direction: column;
+  }
+}

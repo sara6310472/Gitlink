@@ -1,0 +1,9 @@
+.delete-btn{
+    width: 5vw;
+    height: 7vh;
+    background-color: rgb(254, 203, 203);
+    border: none;
+}
+.delete-btn:hover{
+    border: none;
+}

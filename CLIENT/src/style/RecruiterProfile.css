@@ -1,0 +1,150 @@
+/* RecruiterProfile.css - Specific styles for RecruiterProfile component */
+
+/* Company section styling */
+.profile-section h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin: 0 0 1.5rem 0;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.profile-description {
+  color: #6b7280;
+  line-height: 1.6;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Jobs list styling */
+.profile-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.profile-section li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+  background: #f8fafc;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  transition: all 0.2s ease;
+}
+
+.profile-section li:hover {
+  background: #f1f5f9;
+  border-color: #667eea;
+}
+
+.profile-section li button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.profile-section li button:first-of-type {
+  background: #667eea;
+  color: white;
+}
+
+.profile-section li button:first-of-type:hover {
+  background: #5a67d8;
+  transform: translateY(-1px);
+}
+
+/* Job management actions */
+.project-actions {
+  margin-bottom: 2rem;
+}
+
+/* Job form styling */
+.projectsToAdd {
+  margin-top: 2rem;
+  padding: 2rem;
+  background: #f8fafc;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+}
+
+.project-form {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-input {
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.2s ease;
+  box-sizing: border-box;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #221089;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+.cancel-btn {
+  background: #6b7280;
+  color: white;
+  border: none;
+  padding: 0.875rem 2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.cancel-btn:hover {
+  background: #4b5563;
+  transform: translateY(-1px);
+}
+
+/* Responsive Design for Recruiter Profile */
+@media (max-width: 768px) {
+  .profile-section li {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+  .form-buttons {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-section {
+    padding: 1.5rem;
+  }
+}

@@ -1,0 +1,260 @@
+.container {
+  min-height: 100vh;
+  background-color: #f9f9f9;
+  padding: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.header {
+  background: #ffffff;
+  padding: 20px 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.jobActions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.button {
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.editButton {
+  background-color: #eef2f6;
+  color: #333;
+}
+
+.editButton:hover {
+  background-color: #e0e7ee;
+}
+
+.filledButton {
+  background-color: #d1e7dd;
+  color: #0f5132;
+}
+
+.filledButton:hover {
+  background-color: #bcd7c9;
+}
+
+.deleteButton {
+  background-color: #f8d7da;
+  color: #842029;
+}
+
+.deleteButton:hover {
+  background-color: #f1c2c6;
+}
+
+.noApplicants {
+  text-align: center;
+  font-size: 16px;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.applicantsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.applicantCard {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: 100%;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.profileSection {
+  display: flex;
+  gap: 12px;
+}
+
+.profileImage {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #e2e8f0;
+}
+
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.username {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.role,
+.rating {
+  font-size: 14px;
+  color: #666;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.smallIcon {
+  font-size: 14px;
+}
+
+.statusBadge {
+  font-size: 13px;
+  font-weight: 600;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 12px;
+  white-space: nowrap;
+}
+
+.skillsSection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill-tag {
+  background-color: #e9ecef;
+  color: #495057;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 13px;
+}
+
+.contactInfo {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.5;
+}
+
+.remarkSection {
+  background-color: #fff3cd;
+  color: #856404;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.cardActions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.actionRow {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.smallButton {
+  font-size: 13px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.handleButton {
+  background-color: #e0f7fa;
+  color: #007b8f;
+}
+
+.rejectButton {
+  background-color: #fdecea;
+  color: #b02a37;
+}
+
+.pendingButton {
+  background-color: #fcf3d8;
+  color: #ffc107;
+}
+
+.emailButton {
+  background-color: #e2e3f3;
+  color: #3e3f8d;
+}
+
+.cvButton {
+  background-color: #dee2e6;
+  color: #343a40;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.remarkButton {
+  background-color: #fff;
+  color: #555;
+  border: 1px solid #ccc;
+}
+
+.smallButton:hover {
+  opacity: 0.9;
+}
+
+.noCv {
+  font-size: 13px;
+  color: #999;
+  padding: 6px 12px;
+  background-color: #f1f3f5;
+  border-radius: 6px;
+}
+
+.handled {
+  background-color: #28a745;
+}
+
+.rejected {
+  background-color: #dc3545;
+}
+
+.pending {
+  background-color: #ffc107;
+}
+
+button:disabled {
+  background-color: #f1f3f5;
+  cursor: not-allowed;
+  opacity: 0.6;
+}

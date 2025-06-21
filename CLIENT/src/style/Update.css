@@ -1,0 +1,90 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: #fff;
+    border-radius: 12px;
+    /* left: 0; */
+    position: fixed;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    padding: 30px 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: fadeInScale 0.3s ease forwards;
+}
+
+@keyframes fadeInScale {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.modal-content input {
+    width: 100%;
+    padding: 10px 12px;
+    margin: 12px 0;
+    border: 1.5px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: border-color 0.2s ease;
+}
+
+.modal-content input:focus {
+    border-color: #5677fc;
+    outline: none;
+}
+
+.modal-content button {
+    cursor: pointer;
+    padding: 10px 18px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    transition: background-color 0.2s ease;
+}
+
+.modal-content button[value="OK"] {
+    background-color: #5677fc;
+    color: white;
+}
+
+.modal-content button[value="OK"]:hover {
+    background-color: #3f57d6;
+}
+
+.modal-content button[value="cancel"] {
+    background-color: #ddd;
+    color: #555;
+}
+
+.modal-content button[value="cancel"]:hover {
+    background-color: #bbb;
+}
+
+.update-btn {
+    width: 5vw;
+    height: 7vh;
+    background-color: rgb(191, 196, 255);
+    border: none;
+}
+
+.update-btn:hover {
+    border: none;
+}
