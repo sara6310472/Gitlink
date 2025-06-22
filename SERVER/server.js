@@ -10,7 +10,7 @@ const path = require('path');
 const PORT = process.env.PORT || 3001;
 
 const corsOptions = {
-    origin: "http://localhost:5173",
+    origin: "https://gitlink1.vercel.app",
     credentials: true,
 };
 
