@@ -4,7 +4,7 @@ import { useCurrentUser } from "../../context.jsx";
 import { useFetchData } from "../../hooks/fetchData.js";
 import { useLogout } from "../../hooks/LogOut.js";
 import Job from "./Job.jsx";
-import "../../style/Jobs.css";
+import '../../style/Jobs.css';
 import Search from "../common/Search.jsx";
 import Sort from "../common/Sort.jsx";
 
