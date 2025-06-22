@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { useCurrentUser } from "../../context.jsx";
 import { useFetchData } from "../../hooks/fetchData.js";
 import { useLogout } from "../../hooks/LogOut.js";
-import "../../style/developers.css";
+import "../../style/Developers.css";
 import Search from "../common/Search.jsx";
 import Sort from "../common/Sort.jsx";
 
