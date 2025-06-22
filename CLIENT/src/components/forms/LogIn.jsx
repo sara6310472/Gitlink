@@ -1,6 +1,6 @@
 import { useForm } from "react-hook-form";
 import { useAuth } from "../../hooks/useAuth.js";
-import '../../style/LogIn.css';
+// import '../../style/LogIn.css';
 
 const VALIDATION_RULES = {
   username: {
